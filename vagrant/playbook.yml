@@ -1,0 +1,6 @@
+- hosts: default
+  roles:
+    - active-directory
+  vars:
+    ad_domain_name: contoso.com
+    ad_safe_mode_password: FtPX38qhuaHTaTS4CkZ6Fpsgg5wL883N
