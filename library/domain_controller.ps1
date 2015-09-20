@@ -5,9 +5,9 @@
 
 $params = Parse-Args $args;
 
-$result = New-Object PSObject -Property @{
+$result = New-Object psobject @{
     changed = $false
-}
+};
 
 If ($params.domain_name) {
     $domainName = $params.domain_name
